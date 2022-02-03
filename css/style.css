@@ -1,0 +1,432 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  z-index: 0;
+}
+
+.header {
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: 86px;
+  transition-duration: 0.5s;
+}
+
+.header2 {
+  height: 70px;
+  transition-duration: 0.5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #525254;
+  float: right;
+  line-height: 55px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#navDiv {
+  width: 88%;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 4.5rem;
+  margin-left: 5%;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.logo2 {
+  margin-right: 0 !important;
+  width: 3.5rem !important;
+  transition-duration: 0.5s;
+}
+
+#tLogo {
+  padding-left: 0px;
+}
+
+#textoLogo {
+  font-size: 18px;
+  color: #525254;
+  font-weight: 700;
+  margin-top: 1.3rem;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.textoLogo2 {
+  margin-top: 0.9rem !important;
+  font-size: 15px !important;
+  transition-duration: 0.5s;
+}
+
+#linkLogo {
+  text-decoration: none;
+}
+
+.navBotones {
+  text-decoration: none;
+  color: #525254;
+}
+
+.navBotones:hover {
+  color: #4fb983;
+}
+
+nav ul {
+  float: right;
+  margin-right: 5%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 40px;
+  transition-duration: 0.5s;
+}
+
+.items2 {
+  font-size: 15px !important;
+  padding-top: 15px !important;
+  transition-duration: 0.5s;
+}
+
+#nav {
+  padding: 10px;
+}
+
+#secciónShema {
+  padding-top: 5.1%;
+  background: url(../img/casco.jpg);
+  background-size: cover;
+}
+
+.espacios {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#títuloPrincipal {
+  display: inline-block;
+  font-size: 80px;
+  padding-top: 80px;
+  color: #525254;
+  font-weight: 700;
+}
+
+#textoPrincipal {
+  font-size: 17px;
+  color: #525254;
+}
+
+#botonesPrincipal {
+  margin-top: 5%;
+  padding-left: 0px;
+}
+
+.btns {
+  display: block;
+  width: 160px;
+}
+
+#btn1 {
+  background: rgba(169, 203, 185, 0.5);
+  border: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#btn1:hover {
+  background: #a9cbb9;
+}
+
+#btn2 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0px;
+  padding-top: 15px;
+  width: 250px;
+}
+
+#btn2:hover {
+  background: none;
+  color: #a9cbb9;
+}
+
+#íconoPDF {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.títulos {
+  text-align: center;
+  font-size: 50px;
+  color: #525254;
+  font-weight: 600;
+}
+
+#containerServicios {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardServicio {
+  width: 190px;
+  height: 190px;
+  border: none;
+}
+
+.íconosServicios {
+  color: #4bbc83;
+  display: inline;
+  margin-left: 25%;
+}
+
+.textoÍconos {
+  font-size: 20px;
+  color: #525254;
+  text-align: center;
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#fotos {
+  max-width: 100%;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #545455;
+  display: inline-block;
+  background: #deeae3;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#acordeón {
+  margin-top: 2%;
+}
+
+.acordeónTítulos {
+  color: #525254;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #525254 !important;
+  background: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+  box-shadow: 1px 1px 8px rgb(75, 188, 131);
+}
+
+#secConsultoría {
+  background: #74cfa1;
+}
+
+.títulos2 {
+  color: #fefefe;
+}
+
+#infoConsultoría {
+  margin-top: 2%;
+}
+
+.nav-link {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fefefe;
+  padding-left: 90.8px;
+  padding-right: 90.8px;
+}
+
+.nav-link:hover {
+  color: #fefefe;
+}
+
+.nav-link.active {
+  color: white !important;
+  background: none !important;
+}
+
+.nav-tabs {
+  padding: 0px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0;
+}
+
+.tab-pane {
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 2%;
+  color: #fefefe;
+}
+
+button .active {
+  background: #4fb983;
+}
+
+#containerNosotros {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#rowNosotros {
+  max-width: 100%;
+}
+
+#imagenNosotros {
+  width: 100%;
+}
+
+#textoNosotros {
+  font-size: 18px;
+  color: #525254;
+  padding-left: 45px;
+  padding-top: 30px;
+}
+
+#secciónContacto {
+  background: #74cfa1;
+}
+
+#rowContacto {
+  width: 100%;
+}
+
+#containerContacto {
+  max-width: 100%;
+}
+
+.cajasContacto {
+  background: white;
+  width: 85%;
+  height: 36%;
+  margin: 0 auto;
+  margin-top: 7%;
+  padding: 20px;
+  margin-right: 7%;
+  align-items: center;
+}
+
+.íconosContacto {
+  display: inline-block;
+  color: #4bbc83;
+}
+
+.textoContacto {
+  color: #4bbc83;
+  margin-bottom: 0;
+}
+
+.texto {
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+#map {
+  display: inline-block;
+  margin-top: 3.5%;
+}
+
+#footer {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 10px;
+  color: #4bbc83;
+  justify-content: flex-end;
+}
+
+iframe {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1180px) {
+  #logo {
+    width: 4rem;
+  }
+  .navBotones {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 40vph;
+    background: #74cfa1;
+    padding: 0px;
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 20px 0;
+    line-height: 30px;
+    padding-left: 0px;
+  }
+  nav ul li a {
+    font-size: 20px !important;
+  }
+
+  nav ul li a:hover {
+    color: white !important;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    width: 4rem;
+  }
+  #map {
+    width: 645px;
+    margin: 0 auto;
+    margin-top: 7%;
+  }
+  iframe {
+    width: 100%;
+  }
+  #textoLogo {
+    font-size: 0px !important;
+  }
+}
